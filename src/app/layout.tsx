@@ -15,7 +15,18 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="ar" dir="rtl">
-      <head />
+      <head>
+        <meta property="og:title" content="almaher" />
+        <meta
+          property="og:description"
+          content="almaher | شركة الماهر لتكنولوجيا الأعمال"
+        />
+        <meta property="og:site_name" content="almaher" />
+        <meta property="og:locale" content="ar" />
+        <meta property="og:locale:alternate" content="en" />
+        <meta property="og:type" content="website" />
+        <link rel="icon" href="/images/logo.png" sizes="any" />
+      </head>
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${cairo.className}`}>
         <Providers>

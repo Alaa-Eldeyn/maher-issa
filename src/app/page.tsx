@@ -9,13 +9,13 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "El-maher | شركة الماهر",
-  description: "Elmaher company | شركة الماهر",
+  description: "شركة الماهر لتكنولوجيا الأعمال",
 };
 
 export default function Home() {
   return (
     <>
-      {/* <ScrollUp /> */}
+      <ScrollUp />
       <Hero />
       <Features />
       <AboutSectionTwo />
