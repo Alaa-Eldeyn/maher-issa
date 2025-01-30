@@ -57,7 +57,7 @@ const NewsLatterBox = () => {
           {socialMedia.map((item) => (
             <Link
               key={item.id}
-              href={item.link}
+              href={"#"}
               className="soft center flex size-12 items-center justify-center rounded-xl bg-black/10 p-2 text-2xl transition duration-300 hover:bg-white/30 dark:bg-white/10"
             >
               {item.icon}

@@ -30,7 +30,7 @@ const Hero = () => {
                   <p>تابعنا على</p>
                   <hr className="h-[2px] w-20 border-none bg-primary" />
                   <Link
-                    href="https://www.facebook.com/3lwa88"
+                    href="#"
                     target="_blank"
                     className="text-xl"
                   >
@@ -38,7 +38,7 @@ const Hero = () => {
                     <FaFacebookSquare />
                   </Link>
                   <Link
-                    href="https://www.instagram.com/3lwa88/"
+                    href="#"
                     target="_blank"
                     className="text-xl"
                   >
@@ -46,7 +46,7 @@ const Hero = () => {
                     <FaSquareInstagram />
                   </Link>
                   <Link
-                    href="https://www.linkedin.com/in/alaa-eldeyn/"
+                    href="#"
                     target="_blank"
                     className="text-xl"
                   >

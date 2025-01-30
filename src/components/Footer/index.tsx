@@ -30,7 +30,7 @@ const Footer = () => {
               {socialMedia.map((item) => (
                 <Link
                   key={item.id}
-                  href={item.link}
+                  href={"#"}
                   className="soft center flex size-12 items-center justify-center rounded-xl bg-black/10 p-2 text-2xl transition duration-300 hover:bg-white/30 dark:bg-white/10"
                 >
                   {item.icon}
@@ -45,12 +45,12 @@ const Footer = () => {
           <p className="text-center text-base text-body-color dark:text-white">
             Developed by{" "}
             <a
-              href="https://alaa-eldeyn1.vercel.app/"
+              href="https://al-maher.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary"
             >
-              Alaa Eldeyn
+              Al-maher
             </a>
           </p>
         </div>
