@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Error Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Error Page for Startup Nextjs Template",
+  title: "El-maher - Error Page",
+  description: "Sorry, the page can’t be found",
   // other metadata
 };
 
@@ -13,12 +13,12 @@ const ErrorPage = () => {
     <>
       <section className="relative z-10 pb-16 pt-36 md:pb-20 lg:pb-28 lg:pt-[180px]">
         <div className="container">
-          <div className="flex flex-wrap -mx-4">
+          <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[530px] text-center">
-                <div className="mx-auto text-center mb-9">
+                <div className="mx-auto mb-9 text-center">
                   <svg
-                    className="w-full mx-auto text-center"
+                    className="mx-auto w-full text-center"
                     height="210"
                     viewBox="0 0 474 210"
                     fill="none"
@@ -142,17 +142,16 @@ const ErrorPage = () => {
                   </svg>
                 </div>
                 <h3 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl">
-                  Sorry, the page can’t be found
+                  عذرًا، لا يمكن العثور على الصفحة
                 </h3>
                 <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  The page you were looking for appears to have been moved,
-                  deleted or does not exist.
+                  يبدو أن الصفحة التي تبحث عنها قد تمت إزالتها أو تغيير اسمها
                 </p>
                 <Link
                   href="/"
-                  className="px-8 py-3 text-base font-bold text-white duration-300 rounded-md bg-primary shadow-signUp hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
+                  className="rounded-md bg-primary px-8 py-3 text-base font-bold text-white shadow-signUp duration-300 hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
                 >
-                  Back to Homepage
+                  العودة إلى الصفحة الرئيسية
                 </Link>
               </div>
             </div>
