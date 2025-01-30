@@ -5,28 +5,26 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "مشرف شي",
-    designation: "مؤسس @TailGrids",
+    name: "محمد الشافعى",
+    designation: "",
     content:
-      "أعضاءنا منبهرون للغاية. إنه بديهي. إنه نظيف. إنه خالٍ من الإلهاء. إذا كنت تبني مجتمعًا.",
+      "صراحة شغل رائع وبسيط وبسرعة الواحد يشتغل عليه .. يعنى كتير صديق للمستخدمين",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "ديفيد ويليام",
-    designation: "مؤسس @UIdeck",
-    content:
-      "أعضاءنا منبهرون للغاية. إنه بديهي. إنه نظيف. إنه خالٍ من الإلهاء. إذا كنت تبني مجتمعًا.",
+    name: "محمد أبوالصقر",
+    designation: "",
+    content: "البرنامج كتير مرتب وبسيط",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "ليثيوم فرينسي",
-    designation: "مؤسس @Lineicons",
-    content:
-      "أعضاءنا منبهرون للغاية. إنه بديهي. إنه نظيف. إنه خالٍ من الإلهاء. إذا كنت تبني مجتمعًا.",
+    name: "داوود مرايطة",
+    designation: "",
+    content: "أحلى برنامج وسهل ومجرب",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
